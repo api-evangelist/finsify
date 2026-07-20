@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.finsify.com/
+docs: https://docs.finsify.com/
+summary:
+  types: [apiKey]
+  api_key_in: [header]
+  oauth2_flows: []
+  notes: >-
+    Finsify Hub uses static header credentials issued per partner. Every request
+    carries a Client-Id header identifying the partner, plus exactly one secret:
+    Service-secret for server/web integrations or App-secret for mobile apps.
+    Service-secret and App-secret must never be sent together on the same request.
+    A short-lived connection token (POST /token) then authorizes the end-user's
+    bank login flow; it is a session token, not an OAuth access token.
+schemes:
+  - name: Client-Id
+    type: apiKey
+    in: header
+    parameter: Client-Id
+    description: Partner identifier issued by Finsify. Required on every request.
+    sources: [https://docs.finsify.com/]
+  - name: Service-secret
+    type: apiKey
+    in: header
+    parameter: Service-secret
+    description: >-
+      Server-side secret for web/backend services. Mutually exclusive with
+      App-secret.
+    sources: [https://docs.finsify.com/]
+  - name: App-secret
+    type: apiKey
+    in: header
+    parameter: App-secret
+    description: >-
+      Mobile-app secret. Mutually exclusive with Service-secret.
+    sources: [https://docs.finsify.com/]
+connection_token:
+  operation: POST /token
+  purpose: >-
+    Generates a short-lived connection token used to launch or re-run an
+    end-user's bank login. Reconnect via POST /token/reconnect when a login
+    needs re-authentication.

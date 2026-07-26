@@ -1,7 +1,29 @@
 aid: finsify
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finsify.png
 name: Finsify
-description: Finsify is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Finsify is a Southeast Asian bank-data aggregation company whose Finsify Hub
+  service exposes a RESTful API for accessing end-user banking data — account
+  balances and status, and categorized transaction history — across 50+ bank and
+  statement services in 15 countries. The API handles customer creation,
+  short-lived connection tokens that drive the end-user bank-login flow, account
+  retrieval, transaction history filtered by date range, and login lifecycle
+  management (activate, deactivate, refresh, reconnect), with machine-learning
+  transaction categorization and webhook notifications for new transactions and
+  login-status changes. Finsify is a 500 Global portfolio company and powers
+  fintech products including Money Lover, Money Paper, Ngan Luong, and Bao Kim.
 url: https://raw.githubusercontent.com/api-evangelist/finsify/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +33,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Financial Services
+- Open Banking
+- Bank Aggregation
+- Financial Data
+- Transactions
+- Fintech
+- Southeast Asia
+apis:
+- name: Finsify Hub API
+  description: >-
+    RESTful bank-aggregation API for accessing consumer banking data — accounts,
+    balances, and categorized transaction history — plus customer, connection
+    token, and login lifecycle management, with webhook notifications.
+  humanURL: https://docs.finsify.com/
+  baseURL: https://api.finsify.com/v2
+  tags:
+  - Open Banking
+  - Bank Aggregation
+  - Transactions
+  properties:
+  - type: Documentation
+    url: https://docs.finsify.com/
+  - type: Authentication
+    url: authentication/finsify-authentication.yml
+  - type: ErrorCatalog
+    url: errors/finsify-error-codes.yml
+  - type: Webhooks
+    url: asyncapi/finsify-webhooks.yml
+  - type: Conventions
+    url: conventions/finsify-conventions.yml
+  - type: Lifecycle
+    url: lifecycle/finsify-lifecycle.yml
+  - type: DataModel
+    url: data-model/finsify-data-model.yml
+  - type: MCPServer
+    url: mcp/finsify-mcp.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +80,34 @@ maintainers:
 common:
 - type: Website
   url: https://hub.finsify.com
+- type: DeveloperPortal
+  url: https://hub.finsify.com
+- type: Documentation
+  url: https://docs.finsify.com/
+- type: APIReference
+  url: https://docs.finsify.com/
+- type: Authentication
+  url: authentication/finsify-authentication.yml
+- type: ErrorCatalog
+  url: errors/finsify-error-codes.yml
+- type: Webhooks
+  url: asyncapi/finsify-webhooks.yml
+- type: Conventions
+  url: conventions/finsify-conventions.yml
+- type: Lifecycle
+  url: lifecycle/finsify-lifecycle.yml
+- type: DataModel
+  url: data-model/finsify-data-model.yml
+- type: MCPServer
+  url: mcp/finsify-mcp.yml
+- type: LLMsTxt
+  url: llms/finsify-llms.txt
+- type: DomainSecurity
+  url: security/finsify-domain-security.yml
+- type: APICatalog
+  url: well-known/finsify-service-catalog.json
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

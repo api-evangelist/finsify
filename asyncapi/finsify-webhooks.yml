@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.finsify.com/
+spec_type: Webhooks
+transport: HTTP POST callback to a partner-registered URL
+description: >-
+  Finsify Hub pushes asynchronous notifications to a partner-registered callback
+  URL. Two event families are documented: new-transaction notifications when
+  fresh transactions are synced for a login, and login-status-change
+  notifications when an end-user's bank login can no longer be refreshed.
+events:
+  - name: new_transaction
+    summary: New transactions were synced for a login.
+    payload_fields:
+      - login_id
+      - timestamp
+      - accounts
+      - new
+      - referenceId
+  - name: login_status_change
+    summary: An end-user bank login changed status and may need re-authentication.
+    payload_fields:
+      - status
+      - login_id
+    statuses:
+      - value: login_wrong_credentials
+        meaning: Login changed password / credentials no longer valid
+      - value: login_password_expired
+        meaning: Login password is expired
+      - value: login_account_locked
+        meaning: Login is locked
+remediation:
+  note: >-
+    On a login_status_change event, call POST /token/reconnect to prompt the
+    end-user to re-authenticate the affected bank login.

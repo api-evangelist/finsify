@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.finsify.com/
+authentication:
+  style: static header credentials (apiKey)
+  headers: [Client-Id, Service-secret, App-secret]
+  note: >-
+    Client-Id on every request plus exactly one of Service-secret (web) or
+    App-secret (mobile). See authentication/finsify-authentication.yml.
+content_type:
+  request: application/json
+  note: >-
+    Requests must send application/json; a non-JSON body returns
+    ContentInputInvalid (400). See errors/finsify-error-codes.yml.
+idempotency:
+  supported: false
+  note: No idempotency-key header or contract is documented.
+pagination:
+  supported: false
+  transaction_query:
+    style: date-range filter
+    params: [account_id, from_date, to_date]
+    note: >-
+      The transaction endpoint is filtered by account and a from_date/to_date
+      window; no limit/offset/cursor pagination is documented.
+versioning:
+  scheme: uri-path
+  current: v2
+  base_url: https://api.finsify.com/v2
+error_envelope:
+  format: custom-json
+  fields: [code, message]
+  ref: errors/finsify-error-codes.yml
+webhooks:
+  supported: true
+  ref: asyncapi/finsify-webhooks.yml
+service_discovery:
+  url: https://assets.finsify.com/service.json
+  note: >-
+    Public JSON catalog of supported bank/statement services (id, name, country,
+    balance support). Captured at well-known/finsify-service-catalog.json.
+rate_limit_signaling:
+  documented: false

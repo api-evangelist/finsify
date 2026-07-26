@@ -1,0 +1,54 @@
+generated: '2026-07-19'
+method: derived
+source: https://docs.finsify.com/
+note: >-
+  Entity graph derived from the documented Finsify Hub API resources and their
+  reference fields. No OpenAPI is published; relationships are inferred from the
+  documented endpoints and webhook payload fields (e.g. login_id, account_id).
+entities:
+  - name: customer
+    description: An end-user owned by the partner (Client-Id).
+    created_by: POST /customer
+  - name: login
+    description: >-
+      A connection between a customer and a specific bank service, established
+      via a connection token. Carries status (active, wrong_credentials,
+      password_expired, account_locked).
+    id_field: login_id
+  - name: service
+    description: >-
+      A supported bank or statement provider. Catalog published at
+      assets.finsify.com/service.json.
+    id_field: id
+  - name: account
+    description: A bank account exposed under a login, with balance and status.
+    id_field: account_id
+  - name: transaction
+    description: >-
+      A single transaction under an account (amount, date, currency,
+      description) with ML-based categorization.
+relationships:
+  - from: login
+    to: customer
+    type: belongs_to
+    via: customer
+  - from: login
+    to: service
+    type: belongs_to
+    via: service
+  - from: account
+    to: login
+    type: belongs_to
+    via: login_id
+  - from: login
+    to: account
+    type: has_many
+    via: login_id
+  - from: transaction
+    to: account
+    type: belongs_to
+    via: account_id
+  - from: account
+    to: transaction
+    type: has_many
+    via: account_id

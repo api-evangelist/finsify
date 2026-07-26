@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.finsify.com/
+versioning:
+  scheme: uri-path
+  current: v2
+  base_url: https://api.finsify.com/v2
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No published deprecation or sunset policy found.
+sla:
+  url: null
+  uptime_target: null
+status_page: null
+maintenance:
+  note: >-
+    Maintenance/outage is signaled at request time via ServerMaintenance (503)
+    and ConnectError (503) responses rather than a hosted status page.
+deprecated_operations: []

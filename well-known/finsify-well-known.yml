@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of Finsify hosts
+hosts_probed: [hub.finsify.com, docs.finsify.com, api.finsify.com, finsify.com]
+documents:
+  - path: /.well-known/security.txt
+    host: hub.finsify.com
+    status: 404
+  - path: /.well-known/security.txt
+    host: api.finsify.com
+    status: 404
+  - path: /.well-known/security.txt
+    host: finsify.com
+    status: 404
+  - path: /.well-known/openid-configuration
+    host: api.finsify.com
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    host: hub.finsify.com
+    status: 404
+  - path: /.well-known/api-catalog
+    host: hub.finsify.com
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    host: hub.finsify.com
+    status: 404
+service_catalog:
+  url: https://assets.finsify.com/service.json
+  file: finsify-service-catalog.json
+  status: 200
+  note: >-
+    Not served from /.well-known, but a real public catalog of supported
+    bank/statement services (56 services across 15 countries at capture time).

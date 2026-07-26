@@ -1,0 +1,22 @@
+# Finsify
+
+> Finsify Hub is a bank-data aggregation service for Southeast Asia. Its RESTful API gives partners access to end-user banking data — account balances, account status, and categorized transaction history — across 50+ bank and statement services in 15 countries. Partners include Money Lover, Money Paper, Ngan Luong, and Bao Kim.
+
+Authentication is static header credentials: a Client-Id on every request plus exactly one secret (Service-secret for web/backend, App-secret for mobile). A short-lived connection token (POST /token) authorizes the end-user's bank login flow. API base URL: https://api.finsify.com/v2. No OAuth; no idempotency; the transaction endpoint filters by account_id and a from_date/to_date window (no pagination). Errors are JSON with an error name plus HTTP status. Webhooks push new-transaction and login-status-change events.
+
+## API
+- [Finsify Hub API](https://api.finsify.com/v2): Bank aggregation REST API — customers, connection tokens, accounts, transactions, login management.
+
+## Docs
+- [Developer Documentation](https://docs.finsify.com/): API reference, auth headers, endpoints, error codes, webhooks, code samples (cURL, Node.js, PHP, Java, Swift, Objective-C).
+- [Finsify Hub](https://hub.finsify.com): Product overview and supported banks.
+
+## Specs
+- [Authentication](https://raw.githubusercontent.com/api-evangelist/finsify/refs/heads/main/authentication/finsify-authentication.yml): API-key header auth profile.
+- [Error codes](https://raw.githubusercontent.com/api-evangelist/finsify/refs/heads/main/errors/finsify-error-codes.yml): Error name / status registry.
+- [Webhooks](https://raw.githubusercontent.com/api-evangelist/finsify/refs/heads/main/asyncapi/finsify-webhooks.yml): new_transaction and login_status_change events.
+- [Conventions](https://raw.githubusercontent.com/api-evangelist/finsify/refs/heads/main/conventions/finsify-conventions.yml): auth, content-type, date-range filtering, versioning, error envelope.
+- [Data model](https://raw.githubusercontent.com/api-evangelist/finsify/refs/heads/main/data-model/finsify-data-model.yml): customer / login / service / account / transaction graph.
+
+## Data
+- [Supported service catalog](https://assets.finsify.com/service.json): JSON list of supported bank/statement services by country.

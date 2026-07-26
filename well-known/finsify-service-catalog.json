@@ -1,0 +1,942 @@
+{
+  "status": true,
+  "last_update": 1730790172,
+  "data": [
+    {
+      "id": 18,
+      "name": "MBBank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_25-cover.png",
+      "logo_file_name": "provider_25-logo.png",
+      "color": {
+        "primary": "0072b9",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": {
+        "prompt": "",
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 91,
+      "name": "Bac A Bank Enterprise",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "bacabank-cover.png",
+      "logo_file_name": "bacabank-logo.png",
+      "color": {
+        "primary": "C78926",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": {
+        "prompt": "Chưa có tài khoản?",
+        "text": "Đăng ký ngay!",
+        "url": "http://baca-bank.vn/SitePages/trang-chu.aspx"
+      }
+    },
+    {
+      "id": 213,
+      "name": "BacA Bank Enterprise Sao kê",
+      "provider": "Finsify Statement",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "bacabank-cover.png",
+      "logo_file_name": "bacabank-logo.png",
+      "color": {
+        "primary": "C78926",
+        "secondary": ""
+      },
+      "type": "statement",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 86,
+      "name": "Bank Islam",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "bankislam-cover.png",
+      "logo_file_name": "bankislam-logo.png",
+      "color": {
+        "primary": "AF0A3D",
+        "secondary": "005AAC"
+      },
+      "type": "bank",
+      "country_code": "MY",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 252,
+      "name": "Bank Negara Indonesia",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "id_bni-cover.jpg",
+      "logo_file_name": "BNIN_BNI.png",
+      "color": {
+        "primary": "005F6B",
+        "secondary": "f15922"
+      },
+      "type": "bank",
+      "country_code": "ID",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 106,
+      "name": "Bank of China",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "bank-of-china-cover.png",
+      "logo_file_name": "bank-of-china-logo.png",
+      "color": {
+        "primary": "AA0000",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "HK",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 108,
+      "name": "Bank of Communications",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "bank_of_communications-cover.png",
+      "logo_file_name": "COMM_Bank_of_Communications.png",
+      "color": {
+        "primary": "0a205c",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "HK",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 96,
+      "name": "Bank of India",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "bankofindia-cover.png",
+      "logo_file_name": "bankofindia-logo.png",
+      "color": {
+        "primary": "0082c6",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "IN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 254,
+      "name": "Bank Tabungan Negara",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "id_btn-cover.jpg",
+      "logo_file_name": "BTAN_Bank_Tabungan_Negara_2024.png",
+      "color": {
+        "primary": "005595",
+        "secondary": "FCDB00"
+      },
+      "type": "bank",
+      "country_code": "ID",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 129,
+      "name": "Bankwest",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "bankwest-cover.jpg",
+      "logo_file_name": "BKWA_Bankwest.png",
+      "color": {
+        "primary": "E76225",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "AU",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 166,
+      "name": "BPI",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "bpi-cover.jpg",
+      "logo_file_name": "bpi-logo.png",
+      "color": {
+        "primary": "BB2535",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "PH",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 130,
+      "name": "CBA bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "cba-cover.jpg",
+      "logo_file_name": "CTBA_CBA_Bank.png",
+      "color": {
+        "primary": "FFC425",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "AU",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 109,
+      "name": "China Citic Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "china_construction_bank-cover.png",
+      "logo_file_name": "KWHK_China_Citic_Bank.png",
+      "color": {
+        "primary": "E60000",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "HK",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 110,
+      "name": "Chiyu Banking Corporation",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "chiyu_banking_corporation-cover.png",
+      "logo_file_name": "CIYU_Chiyu_Banking_Corporation.png",
+      "color": {
+        "primary": "993333",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "HK",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 124,
+      "name": "Chong Hing Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "chong_hing_bank-cover.jpg",
+      "logo_file_name": "LCHB_Chong_Hing_Bank.png",
+      "color": {
+        "primary": "FFCB05",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "HK",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 200,
+      "name": "Citibank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "citibank-cover.png",
+      "logo_file_name": "CITI_CitiBank.png",
+      "color": {
+        "primary": "075a9a",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "TW",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 111,
+      "name": "Citibank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "citibank-cover.png",
+      "logo_file_name": "CITI_CitiBank.png",
+      "color": {
+        "primary": "075a9a",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "HK",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 172,
+      "name": "Credito Emiliano",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "credito-emiliano-cover.jpg",
+      "logo_file_name": "credito-emiliano-logo.png",
+      "color": {
+        "primary": "20623B",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "IT",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 173,
+      "name": "Credito Valtellinese",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "credito-valtellinese-cover.jpg",
+      "logo_file_name": "credito-valtellinese-logo.png",
+      "color": {
+        "primary": "02386E",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "IT",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 112,
+      "name": "Dasingbank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "dasingbank-cover.png",
+      "logo_file_name": "DSBA_Dah_Sing_Bank.png",
+      "color": {
+        "primary": "990033",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "HK",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 33,
+      "name": "DongA Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_41-cover.jpg",
+      "logo_file_name": "provider_41-logo.png",
+      "color": {
+        "primary": "f7941f",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": {
+        "prompt": "",
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 183,
+      "name": "DongA Bank Enterprise",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_41-cover.jpg",
+      "logo_file_name": "provider_41-logo.png",
+      "color": {
+        "primary": "f7941f",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": {
+        "prompt": "",
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 216,
+      "name": "DongA Bank Enterprise Sao kê",
+      "provider": "Finsify Statement",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_41-cover.jpg",
+      "logo_file_name": "provider_41-logo.png",
+      "color": {
+        "primary": "f7941f",
+        "secondary": ""
+      },
+      "type": "statement",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 215,
+      "name": "DongA Bank Sao kê",
+      "provider": "Finsify Statement",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_41-cover.jpg",
+      "logo_file_name": "provider_41-logo.png",
+      "color": {
+        "primary": "f7941f",
+        "secondary": ""
+      },
+      "type": "statement",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 206,
+      "name": "first direct",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "first-direct-cover.jpg",
+      "logo_file_name": "MIDL_first_direct.png",
+      "color": {
+        "primary": "000000",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "GB",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 29,
+      "name": "HDBank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_30-cover.png",
+      "logo_file_name": "HDBC_HDBank.png",
+      "color": {
+        "primary": "cc0000",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 87,
+      "name": "Hong Leong Connect",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "hongleong-cover.jpg",
+      "logo_file_name": "HLBB_Hong_Leong.png",
+      "color": {
+        "primary": "002062",
+        "secondary": "005AAC"
+      },
+      "type": "bank",
+      "country_code": "MY",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 88,
+      "name": "Hong Leong Connect BIZ",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "hongleong-cover.jpg",
+      "logo_file_name": "hongleong-logo.png",
+      "color": {
+        "primary": "ef2f23",
+        "secondary": "005AAC"
+      },
+      "type": "bank",
+      "country_code": "MY",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 162,
+      "name": "HSBC",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "hsbc-cover.png",
+      "logo_file_name": "HSBC_HSBC.png",
+      "color": {
+        "primary": "ff0000",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "GB",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 262,
+      "name": "HSBC",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "id_hsbc-cover.jpg",
+      "logo_file_name": "HSBC_HSBC.png",
+      "color": {
+        "primary": "FF0000",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "ID",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 42,
+      "name": "Kasikornbank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "kasikornbank-cover.jpg",
+      "logo_file_name": "kasikornbank-logo.png",
+      "color": {
+        "primary": "00A84F",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "TH",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 49,
+      "name": "Krungsri Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "krungsribank-cover.jpg",
+      "logo_file_name": "AYUD_Ayudhya.png",
+      "color": {
+        "primary": "ffda00",
+        "secondary": "554242"
+      },
+      "type": "bank",
+      "country_code": "TH",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 27,
+      "name": "Maritime Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_36-cover.png",
+      "logo_file_name": "provider_36-logo.png",
+      "color": {
+        "primary": "e22428",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 116,
+      "name": "NCB",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "ncb-cover.png",
+      "logo_file_name": "NYCB_NCB_HongKong.png",
+      "color": {
+        "primary": "993333",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "HK",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 46,
+      "name": "Ngân hàng Quốc Dân",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_37-cover.jpg",
+      "logo_file_name": "provider_37-logo.png",
+      "color": {
+        "primary": "004E96",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 92,
+      "name": "OceanBank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "oceanbank-cover.png",
+      "logo_file_name": "oceanbank-logo.png",
+      "color": {
+        "primary": "009DDC",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": {
+        "prompt": "Chưa có tài khoản?",
+        "text": "Đăng ký ngay!",
+        "url": "https://ib.oceanbank.vn/customer/register_vie.html"
+      }
+    },
+    {
+      "id": 255,
+      "name": "Panin Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "id_panin-cover.jpg",
+      "logo_file_name": "PINB_Panin_Bank.png",
+      "color": {
+        "primary": "1C4B94",
+        "secondary": "137CBC"
+      },
+      "type": "bank",
+      "country_code": "ID",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 7,
+      "name": "Paypal",
+      "provider": "Paypal",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_9-cover.png",
+      "logo_file_name": "PPAL_PayPal.png",
+      "color": {
+        "primary": "1972A4",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "XO",
+      "has_balance": true,
+      "call_to_action": {
+        "prompt": "",
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 256,
+      "name": "Permata Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "id_permata-cover.jpg",
+      "logo_file_name": "id_permata-logo.png",
+      "color": {
+        "primary": "01a141",
+        "secondary": "96C11F"
+      },
+      "type": "bank",
+      "country_code": "ID",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 138,
+      "name": "Resona Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "resona_bank-cover.jpg",
+      "logo_file_name": "resona_bank-logo.png",
+      "color": {
+        "primary": "169F69",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "JP",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 188,
+      "name": "RHB Banking",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "rhb-cover.png",
+      "logo_file_name": "rhb-logo.png",
+      "color": {
+        "primary": "F8002A",
+        "secondary": "005AAC"
+      },
+      "type": "bank",
+      "country_code": "LA",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 69,
+      "name": "RHB Banking Group",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "rhb-cover.png",
+      "logo_file_name": "rhb-logo.png",
+      "color": {
+        "primary": "F8002A",
+        "secondary": "005AAC"
+      },
+      "type": "bank",
+      "country_code": "MY",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 32,
+      "name": "SeABank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_40-cover.jpg",
+      "logo_file_name": "provider_40-logo.png",
+      "color": {
+        "primary": "c4261c",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 30,
+      "name": "SHB",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_38-cover.jpg",
+      "logo_file_name": "provider_38-logo.png",
+      "color": {
+        "primary": "f88408",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 240,
+      "name": "SHB Enterprise",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_38-cover.jpg",
+      "logo_file_name": "provider_38-logo.png",
+      "color": {
+        "primary": "f88408",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 226,
+      "name": "SHB Enterprise Sao kê",
+      "provider": "Finsify Statement",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_38-cover.jpg",
+      "logo_file_name": "provider_38-logo.png",
+      "color": {
+        "primary": "f88408",
+        "secondary": ""
+      },
+      "type": "statement",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 225,
+      "name": "SHB Sao kê",
+      "provider": "Finsify Statement",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_38-cover.jpg",
+      "logo_file_name": "provider_38-logo.png",
+      "color": {
+        "primary": "f88408",
+        "secondary": ""
+      },
+      "type": "statement",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 120,
+      "name": "Standard Chartered Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "standard_chartered_bank-cover.png",
+      "logo_file_name": "standard_chartered_bank-logo.png",
+      "color": {
+        "primary": "86c533",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "HK",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 4,
+      "name": "Tiki",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_4-cover.png",
+      "logo_file_name": "_TIKI_Tiki.png",
+      "color": {
+        "primary": "19b3e9",
+        "secondary": ""
+      },
+      "type": "other",
+      "country_code": "VN",
+      "has_balance": false,
+      "call_to_action": {
+        "prompt": "",
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 249,
+      "name": "Timo",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "timo_vn-cover.jpg",
+      "logo_file_name": "_TIMO_Timo.png",
+      "color": {
+        "primary": "6347ae",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": {
+        "prompt": "Chưa có tài khoản?",
+        "text": "Mở tài khoản ngay!",
+        "url": "https://timo.vn/mo-the-timo-mien-phi?ref=finsify"
+      }
+    },
+    {
+      "id": 264,
+      "name": "Timo Plus",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "timo_plus-cover.jpg",
+      "logo_file_name": "_TIMO_Timo.png",
+      "color": {
+        "primary": "6347ae",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": {
+        "prompt": "Chưa có tài khoản?",
+        "text": "Mở tài khoản ngay!",
+        "url": "https://timoplus.vn/tham-gia?ref=finsify"
+      }
+    },
+    {
+      "id": 160,
+      "name": "TSB Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "tsb-cover.jpg",
+      "logo_file_name": "tsb-logo.png",
+      "color": {
+        "primary": "00529B",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "GB",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 14,
+      "name": "Vietinbank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_17-cover.png",
+      "logo_file_name": "provider_17-logo.png",
+      "color": {
+        "primary": "da2128",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": {
+        "prompt": "",
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 70,
+      "name": "Vietinbank Enterprise",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "provider_17-cover.png",
+      "logo_file_name": "provider_17-logo.png",
+      "color": {
+        "primary": "da2128",
+        "secondary": ""
+      },
+      "type": "bank",
+      "country_code": "VN",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 55,
+      "name": "Wells Fargo",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "wells-fargo-bank-cover.png",
+      "logo_file_name": "wells-fargo-logo.png",
+      "color": {
+        "primary": "AB161A",
+        "secondary": "FECE01"
+      },
+      "type": "bank",
+      "country_code": "US",
+      "has_balance": true,
+      "call_to_action": null
+    },
+    {
+      "id": 133,
+      "name": "Westpac Bank",
+      "provider": "Finsify",
+      "media_path": "https://assets.finsify.com/services/",
+      "cover_file_name": "westpac_bank-cover.jpg",
+      "logo_file_name": "WPAC_Westpac_Bank.png",
+      "color": {
+        "primary": "d5002b",
+        "secondary": "FFFFFF"
+      },
+      "type": "bank",
+      "country_code": "AU",
+      "has_balance": true,
+      "call_to_action": null
+    }
+  ]
+}

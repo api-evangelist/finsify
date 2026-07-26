@@ -1,0 +1,59 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.finsify.com/
+format: custom-json
+envelope:
+  description: >-
+    Errors return a standard HTTP status code with a JSON body carrying a
+    machine-readable error name and a human-readable message. Not RFC 9457
+    application/problem+json.
+  fields: [code, message]
+errors:
+  - name: BadRequest
+    status: 400
+    message: Invalid request format
+  - name: ContentInputInvalid
+    status: 400
+    message: Only allow data type application/json
+  - name: CredentialInvalid
+    status: 400
+    message: Provided credentials do not match requirements
+  - name: CustomerExists
+    status: 400
+    message: Your customer is exists
+  - name: DataInvalid
+    status: 400
+    message: Data is invalid
+  - name: TokenExpire
+    status: 400
+    message: Your token is expired. Please create new token
+  - name: AccountNotFound
+    status: 404
+    message: Account is not found - Your account request not found in server
+  - name: ClientNotFound
+    status: 404
+    message: Can't find client with your id
+  - name: CustomerNotFound
+    status: 404
+    message: Can't find your customer
+  - name: LoginNotFound
+    status: 404
+    message: Login is not found - Can't find your login in server
+  - name: ServiceNotFound
+    status: 404
+    message: Service is not found - Your service request is not define
+  - name: CustomerCreateError
+    status: 500
+    message: Can't create new customer. Please try later
+  - name: InternalError
+    status: 500
+    message: Sorry server is crash. Please try again
+  - name: TokenCreateError
+    status: 500
+    message: Can't create a token. Please try again
+  - name: ConnectError
+    status: 503
+    message: We're temporarily offline. Please try again later
+  - name: ServerMaintenance
+    status: 503
+    message: Servers are currently undergoing maintenance

@@ -6,32 +6,36 @@ server:
   name: finsify
   transport: http
   url: null
-  note: >-
-    No official Finsify MCP server was found. This is a candidate tool list
-    derived from the documented Finsify Hub API operations, one tool per
-    documented operation.
+  note: No official Finsify MCP server was found. This is a candidate tool list derived from the documented
+    Finsify Hub API operations, one tool per documented operation.
 tools:
-  - name: create_customer
-    description: Create a new end-user customer.
-    source_operation: POST /customer
-  - name: create_token
-    description: Generate a connection token to launch a bank login.
-    source_operation: POST /token
-  - name: reconnect_token
-    description: Request a user to re-authenticate an existing bank login.
-    source_operation: POST /token/reconnect
-  - name: list_accounts
-    description: Retrieve the list of accounts for a customer/login.
-    source_operation: GET /account
-  - name: list_transactions
-    description: Fetch transaction history for an account within a date range.
-    source_operation: GET /transaction
-  - name: activate_login
-    description: Enable a bank login.
-    source_operation: PUT /login/activate
-  - name: deactivate_login
-    description: Disable a bank login.
-    source_operation: PUT /login/deactivate
-  - name: refresh_login
-    description: Refresh account data for a bank login.
-    source_operation: PUT /login/refresh
+- name: create_customer
+  description: Create a new end-user customer.
+  source_operation: POST /customer
+- name: create_token
+  description: Generate a connection token to launch a bank login.
+  source_operation: POST /token
+- name: reconnect_token
+  description: Request a user to re-authenticate an existing bank login.
+  source_operation: POST /token/reconnect
+- name: list_accounts
+  description: Retrieve the list of accounts for a customer/login.
+  source_operation: GET /account
+- name: list_transactions
+  description: Fetch transaction history for an account within a date range.
+  source_operation: GET /transaction
+- name: activate_login
+  description: Enable a bank login.
+  source_operation: PUT /login/activate
+- name: deactivate_login
+  description: Disable a bank login.
+  source_operation: PUT /login/deactivate
+- name: refresh_login
+  description: Refresh account data for a bank login.
+  source_operation: PUT /login/refresh
+deployment:
+  mode: none
+  verified: derived
+  tools: 8
+  checked: '2026-08-12'
+  source: catalog MCP census

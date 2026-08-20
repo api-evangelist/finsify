@@ -36,6 +36,15 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
+- Financial-Services
+- Open Banking
+- Bank Aggregation
+- Financial Data
+- Transaction
+- Fintech
+- Southeast Asia
+tags_raw:
+- Company
 - Financial Services
 - Open Banking
 - Bank Aggregation
@@ -52,6 +61,10 @@ apis:
   humanURL: https://docs.finsify.com/
   baseURL: https://api.finsify.com/v2
   tags:
+  - Open Banking
+  - Bank Aggregation
+  - Transaction
+  tags_raw:
   - Open Banking
   - Bank Aggregation
   - Transactions

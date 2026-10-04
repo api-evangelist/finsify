@@ -48,7 +48,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Open Banking
 - Bank Aggregation
 - Financial Data
@@ -64,6 +64,7 @@ tags_raw:
 - Transactions
 - Fintech
 - Southeast Asia
+- Financial-Services
 apis:
 - name: Finsify Hub API
   description: >-
